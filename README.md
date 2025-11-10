@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎟️ Event Card 3D
 
-## Getting Started
+An interactive 3D **event card** built with **React**, **Next.js**, and **Three.js** — designed to look like a physical card that can be **dragged**, **rotated**, and **animated** in 3D space.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **[Next.js](https://nextjs.org/)** — Framework for React with App Router and server-side rendering.
+- **[React Bits](https://www.reactbits.dev/)** — React customizable animated components.
+- **[Three.js](https://threejs.org/)** — Core 3D graphics library.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧩 Features
 
-## Learn More
+- 📇 3D-rendered **event card** that simulates depth and perspective.
+- 🖱️ **Drag to move** the card around the 3D scene.
+- ⚙️ **Physics simulation** using Rapier for smooth interactions.
+- ✨ **Lighting and materials** from Drei for realistic rendering.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### 🧪 Feel free to clone this project and play with it.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ❗️ Important Notes:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- You MUST have the card.glb and lanyard.png files in your project and import them. These can be downloaded from the repo's files.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- You can edit your card.glb file in this online .glb editor and change the texture and image: https://modelviewer.dev/editor/
+
+- The png file is the texture for the lanyard's band and can be edited in any image editor
+
+- For more info: https://www.reactbits.dev/components/lanyard
+
+---
+
+_**Happy Codding! 🐼**_
